@@ -1,0 +1,8 @@
+language: java
+JDK: 
+-1.8.1
+after_success:
+-mvn clean install
+notifications:
+email:
+-s.flynn8@nuigalway.ie
